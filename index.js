@@ -33,6 +33,9 @@ app.get('/banana', (request, response)=>{
 app.get('/react', (req, res) => {
   const myHtml = `
     <html>
+      <head>
+        <link rel="stylesheet" href="/style.css"/>
+      </head>
       <body>
         <h1>Wow, react</h1>
         <div id="app"></div>
